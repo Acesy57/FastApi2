@@ -56,3 +56,19 @@ To access fastapi visit "http://127.0.0.1:8000
     5.Search Functionality:
         The search functionality supports querying books by title, author, or both. This design decision adds flexibility to the API for library users looking for specific books.
 
+## Modifying our system ##
+    User Authentication
+     -Creating new user table with columns ID, Username, and 
+     password
+     -Implementing user login endpoints
+     -The use of JWT Tokens for authentication
+     -Add new field "user_id" to a books table
+
+## Simple interface on how to use ##
+    I create a simple CLI Application to interacts with my API
+      -This application can give user the following accessess.
+       .User login
+       .User can create,read,update and delete book to or from the table
+       .The use of search functionality.
+
+    This application i build by using "request library" so as i can make HTTP requests to my API
